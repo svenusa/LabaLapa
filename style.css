@@ -1,42 +1,78 @@
 
-body{
-    background-color: rgb(68, 68, 68);
-    font-family: sans-serif;
+/* Reset some default styles to ensure consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  header {
-    background-color: darkgrey;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
 
-  }
-h1, h3 {
+/* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px;
   text-align: center;
+  
+}
+/* Main content styles */
+main {
+  background-color: #fff;
+
 }
 
-  article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: white;
-  }
+/* Article styles */
+article {
+  margin-bottom: 20px;
+  padding: 20px;
+}
 
-  p {
-    font-size: 20px;
-  }
-  
-  li {
-    font-size: 20px;
-  }
-  button {
-    background-color:rgb(78, 78, 78) ; 
-    border: none;
-    font-weight: bold;
-    color:white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+article h2 {
+  color: #4285f4;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4285f4;
+  color: #fff;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color:#4285f4
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.bilde {
+  overflow: hidden; 
+  margin-bottom: 20px; 
+}
+
+.bilde img {
+  width: 100%;  
+  height: auto; 
+}
