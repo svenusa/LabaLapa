@@ -11,9 +11,11 @@ body{
     color: white;
 
   }
+h1, h3 {
+  text-align: center;
+}
 
   article {
-
     float: left;
     padding: 20px;
     width: 70%;
