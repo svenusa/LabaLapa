@@ -41,6 +41,10 @@ button {
   color:#4285f4
 }
 
+img{
+width: 500px; height: 320.5px;
+}
+
 .main-container {
   max-width: 800px;
   margin: 20px auto;
@@ -56,8 +60,7 @@ button {
 }
 
 .bilde img {
-  width: 100%;  
-  height: auto; 
+  width: 500px; height: 320.5px; 
 }
 
 .background main{
@@ -79,4 +82,7 @@ button {
   background-image: url('Ed-tene.png');
   background-size: cover;
   background-position: center;
+}
+.Rums img{
+width:500px; height:500px;
 }
